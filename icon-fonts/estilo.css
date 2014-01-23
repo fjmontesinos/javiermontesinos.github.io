@@ -1,0 +1,80 @@
+@font-face {
+	font-family: 'iconfonts';
+	src:url('fonts/iconfonts.eot');
+	src:url('fonts/iconfonts.eot?#iefix') format('embedded-opentype'),
+		url('fonts/iconfonts.woff') format('woff'),
+		url('fonts/iconfonts.ttf') format('truetype'),
+		url('fonts/iconfonts.svg#iconfonts') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-checkmark:before {
+	content: "\e600";
+}
+.icon-checkmark2:before {
+	content: "\e601";
+}
+.icon-calendar:before {
+	content: "\e602";
+}
+.icon-switch:before {
+	content: "\e603";
+}
+.icon-checkmark3:before {
+	content: "\e604";
+}
+.icon-cancel:before {
+	content: "\e605";
+}
+.icon-locked:before {
+	content: "\e606";
+}
+.icon-unlocked:before {
+	content: "\e607";
+}
+.icon-attachment:before {
+	content: "\e608";
+}
+.icon-edit:before {
+	content: "\e609";
+}
+.icon-rotate:before {
+	content: "\e60a";
+}
+.icon-reply:before {
+	content: "\e60b";
+}
+.icon-info:before {
+	content: "\e60c";
+}
+
+a
+{
+	color:#40A2CD;	
+	font-family:arial;
+	font-size:16px;
+	text-decoration: none;
+}
+
+a:before
+{
+	font-family:iconfonts;
+}
+
+a:hover{
+	color:#E41739;
+	text-decoration:underline;
+}
+
+button {
+	border-radius: 0.2em;
+	color:#666;
+	font-family:arial;
+	font-size:16px;	
+}
+
+button:before
+{	
+	font-family:iconfonts;	
+}
